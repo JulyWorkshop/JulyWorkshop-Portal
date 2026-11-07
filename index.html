@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="July Workshop 个人软件与智能工具门户，汇集个人成长、研究分析与效率工具。">
+  <meta property="og:title" content="July Workshop｜数字工具与项目门户">
+  <meta property="og:description" content="让工具服务于思考，让想法逐步成为现实。">
+  <title>July Workshop｜数字工具与项目门户</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="July Workshop 首页">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M20 3.5 36.5 20 20 36.5 3.5 20 20 3.5Z" stroke="currentColor" stroke-width="1.5"/>
+            <path d="m24.5 12-3.2 9.3L12 24.5l9.3-3.2 3.2-9.3Z" fill="currentColor"/>
+            <circle cx="20" cy="20" r="2.2" fill="#8BE0D1"/>
+          </svg>
+        </span>
+        <span class="brand-copy">
+          <strong>JULY WORKSHOP</strong>
+          <small>PERSONAL DIGITAL WORKSPACE</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="主导航">
+        <a class="nav-link active" href="#home">首页</a>
+        <a class="nav-link" href="#projects">产品与工具</a>
+        <a class="nav-link" href="#about">关于</a>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="切换深浅色主题" title="切换主题">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5 8.6 8.6 0 1 0 20.5 14.2Z"/></svg>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-content">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> INDEPENDENT DIGITAL WORKSHOP</div>
+          <h1>让工具服务于思考，<br><span>让想法逐步成为现实。</span></h1>
+          <p class="hero-description">
+            这里是 July Workshop 的统一入口。我们持续构建面向个人成长、研究分析与实际工作的数字工具，
+            把复杂问题拆解清楚，再用合适的工具解决它。
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">探索产品 <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#about">了解 July Workshop <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="orbit-core">
+            <svg viewBox="0 0 100 100" fill="none">
+              <path d="M50 5 95 50 50 95 5 50 50 5Z" stroke="currentColor" stroke-width="1.3"/>
+              <path d="m65 25-10 30-30 10 30-10 10-30Z" fill="currentColor"/>
+              <circle cx="50" cy="50" r="4" fill="#8BE0D1"/>
+            </svg>
+          </div>
+          <span class="orbit-label label-top">IDEAS</span>
+          <span class="orbit-label label-right">TOOLS</span>
+          <span class="orbit-label label-bottom">ACTION</span>
+          <span class="orbit-label label-left">REVIEW</span>
+        </div>
+        <div class="hero-bottomline">
+          <span>DESIGNED TO THINK CLEARLY</span>
+          <span>BUILD · TEST · IMPROVE</span>
+        </div>
+      </section>
+
+      <section class="projects-section section-wrap" id="projects">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">OUR WORKSPACE</div>
+            <h2>产品与工具</h2>
+            <p>从已经可以体验的产品开始，逐步扩展工具边界。</p>
+          </div>
+          <span class="section-index">01 / 04</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="card-topline">
+              <span class="project-number">01</span>
+              <span class="status status-live"><i></i> 在线体验</span>
+            </div>
+            <div class="project-icon compass-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="1.5"/>
+                <circle cx="24" cy="24" r="13" stroke="currentColor" stroke-opacity=".35"/>
+                <path d="m31 15-5.1 11.1L15 31l5.1-11.1L31 15Z" fill="currentColor"/>
+                <circle cx="24" cy="24" r="2" fill="#8BE0D1"/>
+              </svg>
+            </div>
+            <h3>指南针</h3>
+            <p class="project-subtitle">个人成长与决策辅助助手</p>
+            <p class="project-description">
+              帮助梳理复杂问题、比较选择、观察个人状态，并将目标拆解为可执行的行动。
+              让 AI 辅助分析，而不是替用户做决定。
+            </p>
+            <div class="tag-row"><span>决策辅助</span><span>个人成长</span><span>行动复盘</span></div>
+            <a class="card-link" href="https://july.tail87c39a.ts.net/" target="_blank" rel="noopener noreferrer">
+              进入体验 <span aria-hidden="true">↗</span>
+            </a>
+            <p class="card-note">当前体验服务运行在本地设备上，设备及服务关闭时可能暂时无法访问。</p>
+          </article>
+
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="project-number">02</span>
+              <span class="status status-project">项目介绍</span>
+            </div>
+            <div class="project-icon report-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M12 5.5h17l8 8V42H12V5.5Z" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M29 5.5v9h8M18 23h13M18 29h13M18 35h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M18 17h5" stroke="#8BE0D1" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>软件介绍</h3>
+            <p class="project-subtitle">股票价值投资财报分析软件 V1.0</p>
+            <p class="project-description">
+              Windows 11 桌面应用。导入 A 股上市公司多年年报 PDF，依据 18 步分析框架生成可验证、可重复的企业财务体检报告。软件完全本地离线运行，每个数据点保留原始 PDF 与页码来源。
+            </p>
+            <div class="tag-row"><span>Windows 11</span><span>本地运行</span><span>开源代码</span></div>
+            <a class="card-link" href="https://github.com/JulyWorkshop/Stock-V1.0" target="_blank" rel="noopener noreferrer">
+              查看 GitHub 项目 <span aria-hidden="true">↗</span>
+            </a>
+            <p class="card-note">项目说明、源代码与安装运行方式以 GitHub 仓库为准。</p>
+          </article>
+
+          <article class="project-card project-muted">
+            <div class="card-topline">
+              <span class="project-number">03</span>
+              <span class="status status-planned">规划中</span>
+            </div>
+            <div class="project-icon quant-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M7 39V9M7 39h35" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="m12 31 8-9 7 4 11-14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="20" cy="22" r="2" fill="#8BE0D1"/><circle cx="27" cy="26" r="2" fill="#8BE0D1"/><circle cx="38" cy="12" r="2" fill="#8BE0D1"/>
+              </svg>
+            </div>
+            <h3>量化投资工具箱</h3>
+            <p class="project-subtitle">策略研究与量化分析工作台</p>
+            <p class="project-description">
+              计划围绕数据整理、策略研究、历史回测与结果分析逐步建设，具体功能以需求梳理和后续开发为准。
+            </p>
+            <div class="tag-row"><span>策略研究</span><span>数据分析</span><span>历史回测</span></div>
+            <span class="card-link card-link-disabled">即将规划 <span aria-hidden="true">↗</span></span>
+            <p class="card-note">当前尚未开放，不代表已有可用交易或回测功能。</p>
+          </article>
+
+          <article class="project-card project-muted">
+            <div class="card-topline">
+              <span class="project-number">04</span>
+              <span class="status status-planned">方案完善中</span>
+            </div>
+            <div class="project-icon review-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect x="8" y="8" width="32" height="32" rx="5" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M16 18h16M16 24h10M16 30h7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="m29 29 3 3 6-7" stroke="#8BE0D1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>A 股每日复盘</h3>
+            <p class="project-subtitle">市场观察与投资复盘工具</p>
+            <p class="project-description">
+              计划用于整理每日市场观察、记录分析过程与跟踪复盘结论，具体定位和功能仍在完善。
+            </p>
+            <div class="tag-row"><span>市场观察</span><span>分析记录</span><span>复盘</span></div>
+            <span class="card-link card-link-disabled">方案完善中 <span aria-hidden="true">↗</span></span>
+            <p class="card-note">当前为项目规划入口，暂不提供在线服务。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="principles-section section-wrap" id="about">
+        <div class="principles-panel">
+          <div class="principles-copy">
+            <div class="section-kicker">ABOUT JULY WORKSHOP</div>
+            <h2>不追求工具的堆积，<br><span>更关注问题是否真正解决。</span></h2>
+            <p>
+              July Workshop 是一个持续迭代的个人数字工具工作空间。
+              我们关注真实需求，优先复用成熟技术，用小步开发和实际测试不断完善产品。
+            </p>
+          </div>
+          <div class="principle-list">
+            <div class="principle-item"><span>01</span><div><strong>问题导向</strong><small>从真实场景出发，而不是为了技术而堆叠功能。</small></div></div>
+            <div class="principle-item"><span>02</span><div><strong>持续迭代</strong><small>先做出可用版本，再根据体验逐步改进。</small></div></div>
+            <div class="principle-item"><span>03</span><div><strong>保持透明</strong><small>清楚区分已实现功能、测试入口与未来规划。</small></div></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-brand" href="#home">JULY WORKSHOP <span>© <span id="year"></span></span></a>
+      <p>把想法变成工具，把工具带到日常。</p>
+      <a class="back-top" href="#home">返回顶部 ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
